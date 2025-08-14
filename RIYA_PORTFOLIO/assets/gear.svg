@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="gearGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#00ff41;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Gear Teeth -->
+  <path d="M50 5 L55 15 L45 15 Z" fill="url(#gearGradient)" stroke="#00d4ff" stroke-width="1"/>
+  <path d="M75 12 L80 22 L70 17 Z" fill="url(#gearGradient)" stroke="#00d4ff" stroke-width="1"/>
+  <path d="M88 25 L95 35 L83 30 Z" fill="url(#gearGradient)" stroke="#00d4ff" stroke-width="1"/>
+  <path d="M95 50 L85 55 L85 45 Z" fill="url(#gearGradient)" stroke="#00d4ff" stroke-width="1"/>
+  <path d="M88 75 L83 70 L95 65 Z" fill="url(#gearGradient)" stroke="#00d4ff" stroke-width="1"/>
+  <path d="M75 88 L70 83 L80 78 Z" fill="url(#gearGradient)" stroke="#00d4ff" stroke-width="1"/>
+  <path d="M50 95 L45 85 L55 85 Z" fill="url(#gearGradient)" stroke="#00d4ff" stroke-width="1"/>
+  <path d="M25 88 L30 83 L20 78 Z" fill="url(#gearGradient)" stroke="#00d4ff" stroke-width="1"/>
+  <path d="M12 75 L17 70 L5 65 Z" fill="url(#gearGradient)" stroke="#00d4ff" stroke-width="1"/>
+  <path d="M5 50 L15 45 L15 55 Z" fill="url(#gearGradient)" stroke="#00d4ff" stroke-width="1"/>
+  <path d="M12 25 L5 35 L17 30 Z" fill="url(#gearGradient)" stroke="#00d4ff" stroke-width="1"/>
+  <path d="M25 12 L20 17 L30 22 Z" fill="url(#gearGradient)" stroke="#00d4ff" stroke-width="1"/>
+  
+  <!-- Main Gear Body -->
+  <circle cx="50" cy="50" r="30" fill="url(#gearGradient)" stroke="#00d4ff" stroke-width="2"/>
+  
+  <!-- Center Hole -->
+  <circle cx="50" cy="50" r="10" fill="none" stroke="#00d4ff" stroke-width="2"/>
+  
+  <!-- Inner Details -->
+  <circle cx="50" cy="50" r="20" fill="none" stroke="#00ff41" stroke-width="1" opacity="0.6"/>
+  <line x1="30" y1="50" x2="70" y2="50" stroke="#00ff41" stroke-width="1" opacity="0.6"/>
+  <line x1="50" y1="30" x2="50" y2="70" stroke="#00ff41" stroke-width="1" opacity="0.6"/>
+  <line x1="35.86" y1="35.86" x2="64.14" y2="64.14" stroke="#00ff41" stroke-width="1" opacity="0.6"/>
+  <line x1="64.14" y1="35.86" x2="35.86" y2="64.14" stroke="#00ff41" stroke-width="1" opacity="0.6"/>
+</svg>

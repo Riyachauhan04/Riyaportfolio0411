@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="styles.css">
+  <title>Riya Chauhan - Electronics Engineer & Robotics Enthusiast</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Roboto:wght@300;400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+  <!-- Animated Background Elements -->
+  <div class="bg-animation">
+    <div class="circuit-grid"></div>
+    <div class="floating-gears">
+      <div class="gear gear-1"></div>
+      <div class="gear gear-2"></div>
+      <div class="gear gear-3"></div>
+    </div>
+    <div class="hexagon-grid">
+      <div class="hexagon"></div>
+      <div class="hexagon"></div>
+      <div class="hexagon"></div>
+      <div class="hexagon"></div>
+      <div class="hexagon"></div>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <span class="logo-text">RC</span>
+      </div>
+      <div class="nav-menu" id="navMenu">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#certifications" class="nav-link">Certifications</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+      <div class="hamburger" id="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1 class="hero-title" id="hero-title">
+          <span class="name-highlight">Riya</span>
+          <span class="name-highlight">Chauhan</span>
+        </h1>
+        <p class="hero-subtitle">
+          <span class="typewriter" id="typewriter-text"></span>
+        </p>
+        <div class="hero-description">
+          <p>Enthusiastic in Robotics, Embedded Systems, and Innovative Hardware Solutions</p>
+
+        </div>
+        <div class="hero-actions">
+          <button class="btn-primary" onclick="downloadResume()">
+            <i class="fas fa-download"></i>
+            Download Resume
+          </button>
+          <a href="#contact" class="btn-secondary">
+            <i class="fas fa-envelope"></i>
+            Get In Touch
+          </a>
+        </div>
+      </div>
+      <div class="walle">
+        <div class="eyes">
+          <div class="eye">
+            <div class="pupil"></div>
+          </div>
+          <div class="eye">
+            <div class="pupil"></div>
+          </div>
+        </div>
+        <div class="neck"></div>
+        <div class="body">
+          <div class="panel">
+            <div class="bolt tl"></div>
+            <div class="bolt tr"></div>
+            <div class="bolt bl"></div>
+            <div class="bolt br"></div>
+          </div>
+          <div class="arm left"></div>
+          <div class="arm right"></div>
+        </div>
+        <div class="tracks">
+          <div class="track-piece"></div>
+          <div class="track-piece"></div>
+          <div class="track-piece"></div>
+          <div class="track-piece"></div>
+          <div class="track-piece"></div>
+          <div class="track-piece"></div>
+          <div class="track-piece"></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p class="about-description">
+            Enthusiastic Electronics Engineering student with hands-on experience in robotics and embedded systems.
+            Eager to apply strong problem-solving and collaboration skills in a dynamic technical role.
+            Passionate about designing innovative hardware solutions and continually expanding technical knowledge.
+          </p>
+          <div class="language-badges">
+            <span class="language-badge"><i class="fas fa-microchip"></i> English</span>
+            <span class="language-badge"><i class="fas fa-microchip"></i> Gujarati</span>
+            <span class="language-badge"><i class="fas fa-microchip"></i> Hindi</span>
+          </div>
+        </div>
+        <div class="about-visual">
+          <div class="tech-grid">
+            <div class="tech-item">
+              <i class="fas fa-robot"></i>
+              <span>Robotics</span>
+            </div>
+            <div class="tech-item">
+              <i class="fas fa-microchip"></i>
+              <span>Embedded</span>
+            </div>
+            <div class="tech-item">
+              <i class="fas fa-cogs"></i>
+              <span>Hardware</span>
+            </div>
+            <div class="tech-item">
+              <i class="fas fa-bolt"></i>
+              <span>IoT</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fas fa-microchip"></i>
+          </div>
+          <h3 class="skill-name">Embedded Systems</h3>
+
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fas fa-cube"></i>
+          </div>
+          <h3 class="skill-name">PCB Design</h3>
+
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fas fa-wifi"></i>
+          </div>
+          <h3 class="skill-name">IoT Development</h3>
+
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <h3 class="skill-name">Microcontroller Programming</h3>
+
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fas fa-lightbulb"></i>
+          </div>
+          <h3 class="skill-name">Problem Solving</h3>
+
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fas fa-users"></i>
+          </div>
+          <h3 class="skill-name">Team Work</h3>
+
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2 class="section-title">Projects & Achievements</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-video">
+            <video autoplay muted loop webkit-playsinline class="project-video">
+              <source src="assets/video/Hexa.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+
+          </div>
+          <h3 class="project-title">Hexapod Robot</h3>
+          <p class="project-subtitle">ROBOFEST 4.0 Finalist</p>
+          <p class="project-description">
+            Built a six-legged walking robot with multiple gait patterns, enabling forward, backward,
+            and lateral movement. Focused on embedded control, mechanical stability, and responsive
+            real-time operation.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Embedded Control</span>
+            <span class="tech-tag">Gait Algorithms</span>
+            <span class="tech-tag">Real-time Systems</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-video">
+            <video autoplay muted loop webkit-playsinline class="project-video">
+              <source src="assets/video/SB.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+
+          </div>
+          <h3 class="project-title">Self-Balancing Robot</h3>
+          <p class="project-subtitle">Mecanum Wheel Design</p>
+          <p class="project-description">
+            Designed and built a custom self-balancing robot with unique mechanical design, using mecanum
+            wheels for omnidirectional movement and self-balancing capabilities. Focused on real-time
+            embedded control and stability optimization.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Mecanum Wheels</span>
+            <span class="tech-tag">PID Control</span>
+            <span class="tech-tag">IMU Sensors</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-video">
+            <video autoplay muted loop webkit-playsinline class="project-video">
+              <source src="assets/video/Power_Stabilizer.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+
+          </div>
+          <h3 class="project-title">Power Distribution Stabilizer</h3>
+          <p class="project-subtitle">SSIP Hackathon 2022 Finalist</p>
+          <p class="project-description">
+            Developed a system to regulate voltage fluctuations in power distribution, ensuring consistent
+            output under varying input conditions. Designed for improved performance, reliability, and
+            cost-efficiency compared to traditional stabilizers.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Power Electronics</span>
+            <span class="tech-tag">Voltage Regulation</span>
+            <span class="tech-tag">Circuit Design</span>
+          </div>
+        </div>
+
+        <!-- New Video Projects -->
+        <div class="project-card">
+          <div class="project-video">
+            <video autoplay muted loop webkit-playsinline class="project-video">
+              <source src="assets/video/Robot_Car_Farm.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+
+          </div>
+          <h3 class="project-title">Smart Water Sprinkler Robot Car</h3>
+          <p class="project-subtitle">STM32 Blue Pill & ESP8266</p>
+          <p class="project-description">
+            Developed a Smart Water Sprinkler Robot Car using STM32 Blue Pill and ESP8266 for wireless
+            irrigation
+            and pesticide spraying. Integrated RS555 motors, 12V pump, and FreeRTOS for multitasking and
+            remote
+            control via mobile app. Enhanced agricultural efficiency by automating labor-intensive tasks.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">STM32</span>
+            <span class="tech-tag">ESP8266</span>
+            <span class="tech-tag">FreeRTOS</span>
+            <span class="tech-tag">Mobile App</span>
+          </div>
+        </div>
+
+
+
+        <div class="project-card">
+          <div class="project-video">
+            <video autoplay muted loop webkit-playsinline class="project-video">
+              <source src="assets/video/Robot_Basketball.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+
+          </div>
+          <h3 class="project-title">DD Robocon 2025</h3>
+          <p class="project-subtitle">National Competition - All India Rank 10</p>
+          <p class="project-description">
+            <strong>Role:</strong> Electronics Team Lead & Robot Driver (Team Panchjanya – IIT Delhi)<br>
+            Led the electronics development for Team Panchjanya and operated one of the robots in the
+            national
+            "Robot Basketball" challenge. Oversaw sensor integration, real-time actuation, and system
+            coordination
+            for tasks including dribbling, passing, and shooting. Team secured All India Rank 10 out of 48
+            teams.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Team Leadership</span>
+            <span class="tech-tag">Real-time Control</span>
+            <span class="tech-tag">Sensor Integration</span>
+            <span class="tech-tag">National Competition</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-video">
+            <video autoplay muted loop webkit-playsinline class="project-video">
+              <source src="assets/video/Robot_Servo_Movement.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+
+          </div>
+          <h3 class="project-title">20-DOF Humanoid Robot</h3>
+          <p>In Progress</p>
+          <p class="project-subtitle">STM32 & ESP32 Communication</p>
+          <p class="project-description">
+            Currently developing a 20-DOF humanoid robot using an STM32 microcontroller with wireless
+            control
+            via a custom-built controller and onboard ESP32 communication. Implementing real-time command
+            execution
+            through coordinated servo operation. Integrating a camera module for live video, with future
+            plans
+            for image processing and autonomous behavior.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">STM32</span>
+            <span class="tech-tag">ESP32</span>
+            <span class="tech-tag">20-DOF</span>
+            <span class="tech-tag">Computer Vision</span>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="education">
+    <div class="container">
+      <h2 class="section-title">Education Timeline</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-period">2023 - 2026</div>
+            <h3 class="timeline-title">B.Tech in Electronics Engineering</h3>
+            <p class="timeline-institution">Birla Vishvakarma Mahavidyalaya</p>
+            <p class="timeline-description">
+              Pursuing advanced studies in Electronics Engineering with focus on embedded systems,
+              robotics, and digital signal processing.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <i class="fas fa-certificate"></i>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-period">2020 - 2023</div>
+            <h3 class="timeline-title">Diploma in Electrical Engineering</h3>
+            <p class="timeline-institution">Sir Bhavsinhji Polytechnic Institute</p>
+            <p class="timeline-description">
+              Completed comprehensive diploma program covering electrical systems, power electronics,
+              and fundamental engineering principles.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section id="certifications" class="certifications">
+    <div class="container">
+      <h2 class="section-title">Certifications</h2>
+      <div class="certifications-grid">
+        <div class="certification-card">
+          <div class="certification-logo">
+            <img src="assets\LOGO\robofest.png" alt="RoboFest 4.0 2025 Logo" class="cert-logo-img">
+          </div>
+          <h3 class="certification-title">ROBOFEST 4.0 2025</h3>
+          <p class="certification-provider">Ahmedabad</p>
+          <div class="certification-badge">
+            <i class="fas fa-check-circle"></i>
+            Certified
+          </div>
+          <div class="certification-actions">
+            <a class="btn-cert-view" href="assets\Certificate\robofest.jpg" target="_blank">
+              <i class="fas fa-eye"></i>
+              View Certificate
+            </a>
+            <a class="btn-cert-download" href="assets\Certificate\Robofest.jpg" download>
+              <i class="fas fa-download"></i>
+              Download
+            </a>
+          </div>
+        </div>
+
+        <div class="certification-card">
+          <div class="certification-logo">
+            <img src="assets\LOGO\ssip_logo.jpg" alt="SSIP Hackathon 2023 Logo" class="cert-logo-img">
+          </div>
+          <h3 class="certification-title">SSIP HACKATHON 2023</h3>
+          <p class="certification-provider">Baroda</p>
+          <div class="certification-badge">
+            <i class="fas fa-check-circle"></i>
+            Certified
+          </div>
+          <div class="certification-actions">
+            <a class="btn-cert-view" href="assets\Certificate\SSIP.jpg" target="_blank">
+              <i class="fas fa-eye"></i>
+              View Certificate
+            </a>
+            <a class="btn-cert-download" href="assets\Certificate\ssip_hackthon.jpg" download>
+              <i class="fas fa-download"></i>
+              Download
+            </a>
+          </div>
+        </div>
+
+        <div class="certification-card">
+          <div class="certification-logo">
+            <img src="assets\LOGO\RB.jpg" alt="DD Robocon 2025 Logo" class="cert-logo-img">
+          </div>
+          <h3 class="certification-title">DD ROBOCON 2025</h3>
+          <p class="certification-provider">IIT Delhi</p>
+          <div class="certification-badge">
+            <i class="fas fa-check-circle"></i>
+            Certified
+          </div>
+          <div class="certification-actions">
+            <a class="btn-cert-view" href="assets\Certificate\robocon.jpg" target="_blank">
+              <i class="fas fa-eye"></i>
+              View Certificate
+            </a>
+            <a class="btn-cert-download" href="assets\Certificate\robocon.jpg" download>
+              <i class="fas fa-download"></i>
+              Download
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Internship Section -->
+      <div class="internship-section">
+        <h3 class="internship-title">Professional Experience</h3>
+        <div class="internship-card">
+          <div class="internship-header">
+            <div class="internship-icon">
+              <i class="fas fa-shield-alt"></i>
+            </div>
+            <div class="internship-period">June 2024 (2 weeks)</div>
+          </div>
+          <h4 class="internship-company">Gayatri Hi-Tech Security System</h4>
+          <p class="internship-description">
+            Designed a 433 MHz wireless PCB using KiCAD, including schematic capture, layout, and Gerber
+            file generation. Gayatri Hi-Tech Security System is a leading manufacturer of electronic
+            security
+            systems, including CCTV, fire alarms, and access control solutions, based in Anand, Gujarat.
+          </p>
+          <div class="internship-tech">
+            <span class="tech-tag">KiCAD</span>
+            <span class="tech-tag">PCB Design</span>
+            <span class="tech-tag">RF Systems</span>
+            <span class="tech-tag">Gerber Files</span>
+          </div>
+          <div class="internship-actions">
+            <a class="btn-cert-view" href="assets\Certificate\internship.jpg" target="_blank">
+              <i class="fas fa-eye"></i>
+              View Certificate
+            </a>
+            <a class="btn-cert-download" href="assets\Certificate\internship.jpg" download>
+              <i class="fas fa-download"></i>
+              Download
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="contact-details">
+              <h3>Email</h3>
+              <p>riyagotu1234@gmail.com</p>
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fab fa-linkedin"></i>
+            </div>
+            <div class="contact-details">
+              <h3>LinkedIn</h3>
+              <p><a href="https://www.linkedin.com/in/riya-chauhan-82638921a" target="_blank" rel="noopener noreferrer"
+                  class="linkedin-link">Connect with me professionally</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form">
+          <form id="contactForm" class="contact-form-container">
+            <div class="form-group">
+              <label for="fullName">Full Name</label>
+              <input type="text" id="fullName" name="fullName" placeholder="Enter your complete name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Brief description of your inquiry" required>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="6"
+                placeholder="Share your thoughts, project ideas, or collaboration opportunities..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn-send-message">
+              <i class="fas fa-paper-plane"></i>
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p>&copy; 2025 Riya Chauhan. All rights reserved.</p>
+
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top Button -->
+  <button id="scrollToTop" class="scroll-to-top" title="Scroll to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>

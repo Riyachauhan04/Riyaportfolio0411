@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="800" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Futuristic robot">
+  <defs>
+    <filter id="innerShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feOffset dx="0" dy="2"/>
+      <feGaussianBlur stdDeviation="4" result="offset-blur"/>
+      <feComposite operator="out" in="SourceGraphic" in2="offset-blur" result="inverse"/>
+      <feFlood flood-color="#85ebd9" flood-opacity="0.28" result="color"/>
+      <feComposite operator="in" in="color" in2="inverse" result="shadow"/>
+      <feComposite operator="over" in="shadow" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+
+  <!-- Body -->
+  <g transform="translate(50,30)">
+    <rect x="80" y="70" width="220" height="220" rx="24" fill="#2f404d" stroke="#3d898d" stroke-width="4" filter="url(#innerShadow)"/>
+    <!-- Head -->
+    <rect x="120" y="20" width="140" height="80" rx="16" fill="#2f404d" stroke="#3d898d" stroke-width="4"/>
+    <!-- Antenna -->
+    <line x1="190" y1="10" x2="190" y2="0" stroke="#85ebd9" stroke-width="4"/>
+    <circle cx="190" cy="0" r="6" fill="#85ebd9"/>
+    <!-- Eyes -->
+    <ellipse cx="160" cy="60" rx="16" ry="10" class="robot-eye"/>
+    <ellipse cx="220" cy="60" rx="16" ry="10" class="robot-eye"/>
+    <!-- Core -->
+    <circle cx="190" cy="180" r="28" class="robot-core"/>
+    <!-- Arms -->
+    <rect x="56" y="130" width="30" height="90" rx="8" fill="#3d898d"/>
+    <rect x="294" y="130" width="30" height="90" rx="8" fill="#3d898d"/>
+    <!-- Legs -->
+    <rect x="150" y="290" width="20" height="40" rx="6" fill="#3d898d"/>
+    <rect x="210" y="290" width="20" height="40" rx="6" fill="#3d898d"/>
+  </g>
+</svg>
