@@ -315,7 +315,7 @@ function downloadResume() {
   btn.disabled = true;
 
   setTimeout(() => {
-    window.open("assets/resume.pdf", "_blank");
+    window.open("assets/Resume.pdf", "_blank");
     btn.innerHTML = '<i class="fas fa-check"></i> Downloaded!';
 
     setTimeout(() => {
